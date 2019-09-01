@@ -1,4 +1,6 @@
 class StudentController < ApplicationController
 
-get '/'
+  get '/student' do
+
+  end
 end
