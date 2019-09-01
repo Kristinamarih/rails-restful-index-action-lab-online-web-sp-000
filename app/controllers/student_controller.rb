@@ -1,6 +1,6 @@
 class StudentController < ApplicationController
 
-  def '/students' do
+  get '/students' do
     @students = Student.all
   end
 end
